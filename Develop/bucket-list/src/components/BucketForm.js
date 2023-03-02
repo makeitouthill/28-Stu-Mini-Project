@@ -5,7 +5,7 @@ function BucketForm(props) {
   let [eagerness, setEagerness] = useState('');
 
   // TODO: Use this array in the return statement below
-  const eagernessLevel = ['high', 'medium', 'low']
+  const eagernessLevel = ['high', 'medium', 'low'];
 
   const handleSubmit = (e) => {
     e.preventDefault();
